@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+    background: url("All Photo/58.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.gambar img {
+    width: 150px;
+    position: relative;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+.top {
+    font-family: sans-serif;
+    padding-bottom: 20px;
+    color: black;
+    margin-left: 80px;
+}
+
+.top h3 {
+    position: absolute;
+    top: 16%;
+    left: 16%;
+}
+
+.top h1 {
+    font-weight: bold;
+    font-size: 3.71rem;
+    font-family: 'PT Sans Caption', sans-serif;
+    transform: translateY(-50%);
+}
+
+.top p {
+    font-size: 20px;
+    padding-left: 5px;
+    position: absolute;
+    top: 40%;
+}
+
+.content {
+    background: url("All Photo/60.jpg");
+    height: 200vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.content h1 {
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.paragraph p {
+    color: white;
+    width: 40%;
+    margin-right: 50px;
+    margin-top: 80px;
+    font-size: 19px;
+    float: right;
+}
+
+@media (max-width: 860px) {
+    .content p {
+        font-size: 13px;
+    }
+
+    .top h3 {
+        position: absolute;
+        top: 16%;
+        left: 45%;
+    }
+}
+
+.contents {
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url("All Photo/62.jpg");
+    Height: 200vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.titles h1 {
+    text-align: center;
+    margin-bottom: 10%;
+    padding-top: 5%;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1,
+.box2,
+.box3 {
+    width: 300px;
+    height: 320px;
+    background: radial-gradient(circle at top left, transparent 340px, rgba(255, 255, 255, .3)), radial-gradient(circle at bottom right, transparent 340px, rgba(255, 255, 255, .3));
+    margin: 0 40px 100px 15px;
+    padding: 5px;
+    color: white;
+    transition: .2s ease-in-out;
+    text-align: center;
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover {
+    background-color: rgba(25, 255, 180, .2);
+}
+
+.fab {
+    margin: 1.2rem 0 .3rem 0;
+}
+
+h1 {
+    letter-spacing: 2px;
+    margin: 0 0 .6rem 0;
+}
+
+.box1 img {
+    padding-left: 30px;
+    width: 80%;
+    height: 200px;
+    padding-bottom: 5px;
+}
+
+.box2 img {
+    padding-left: 40px;
+    width: 80%;
+    height: 200px;
+    padding-bottom: 5px;
+}
+
+.box3 img {
+    padding-left: 40px;
+    width: 80%;
+    height: 170px;
+    padding-bottom: 25px;
+}
+
+@media (max-width: 860px) {
+    .contents {
+        height: 460vh;
+    }
+}
+
+.contents-2 {
+    background: url("All Photo/66.jpg");
+    height: 60vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: bold;
+    padding-top: 30%;
+    padding-left: 10%;
+}
+
+.contents-2 h1 {
+    font-family: sans-serif;
+    font-size: 60px;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 60px;
+    background-color: #08b64b;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+div footer {
+    background-image: url("All Photo/142.jpg");
+}
+footer .footer {
+    position: relative;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer .soscial_icon {
+    position: relative;
+    display: flex;
+    margin: 10px 0;
+    flex-wrap: wrap;
+    margin-right: 11%;
+}
+
+footer .footer .soscial_icon li {
+    list-style: none;
+}
+
+footer .footer .soscial_icon li a {
+    font-size: 2em;
+    color: white;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+footer .footer .soscial_icon li a:hover {
+    transform: translateY(-10px);
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    margin-right: 10%;
+
+}
+
+footer .img-1 img {
+    width: 20%;
+    margin-left: 35%;
+}

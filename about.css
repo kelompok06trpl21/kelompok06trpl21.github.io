@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.team-section{
+    text-align: center;
+    background: url("All Photo/77.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    padding: 60px;
+}
+.team-section h1{
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: white;
+}
+.border {
+    display: block;
+    margin: auto;
+    width: 160px;
+    height: 3px;
+    background: #3498db;
+    margin-bottom: 40px;
+}
+.ps {
+    margin-bottom: 40px;
+}
+.ps a{
+    display: inline-block;
+    margin: 0 30px;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.ps a img {
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 0.4s all;
+}
+.ps a:hover > img {
+    filter: none;
+}
+.section-1 {
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    height: 0;
+    overflow: hidden;
+}
+.section-1:target{
+    height: auto;
+}
+.name {
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+@media (max-width: 944px) {
+    .team-section{
+        text-align: center;
+        background: url("All Photo/77.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 230vh;
+        padding: 60px;
+    }
+    .section-1 {
+        width: 300px;
+        margin: auto;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        height: 0;
+        overflow: hidden;
+    }
+}
+div footer {
+    background-image: url("All Photo/142.jpg");
+}
+footer .footer {
+    position: relative;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer .soscial_icon {
+    position: relative;
+    display: flex;
+    margin: 10px 0;
+    flex-wrap: wrap;
+    margin-right: 11%;
+}
+
+footer .footer .soscial_icon li {
+    list-style: none;
+}
+
+footer .footer .soscial_icon li a {
+    font-size: 2em;
+    color: white;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+footer .footer .soscial_icon li a:hover {
+    transform: translateY(-10px);
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    margin-right: 10%;
+
+}
+
+footer .img-1 img {
+    width: 20%;
+    margin-left: 35%;
+}
